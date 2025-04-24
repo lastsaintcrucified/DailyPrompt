@@ -16,7 +16,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 export default async function CommunityPage({
 	params,
 }: {
-	params: { date: string };
+	params: Promise<{ date: string }>;
 }) {
 	const { date } = await params;
 	const prompt = await getPromptByDate(date);

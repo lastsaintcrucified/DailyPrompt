@@ -20,7 +20,7 @@ import { CalendarIcon, Clock } from "lucide-react";
 export default async function EntryPage({
 	params,
 }: {
-	params: { id: string };
+	params: Promise<{ id: string }>;
 }) {
 	const { id } = await params;
 
