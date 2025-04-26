@@ -17,8 +17,8 @@ export default async function Home() {
 	const formattedDate = formatDate(today);
 
 	return (
-		<div className='container py-10'>
-			<div className='max-w-4xl mx-auto space-y-10'>
+		<div className='container py-10 '>
+			<div className='max-w-4xl mx-auto space-y-10 flex-col items-center lg:items-start'>
 				<div className='text-center space-y-4'>
 					<h1 className='text-4xl font-bold tracking-tight'>DailyPrompt</h1>
 					<p className='text-xl text-muted-foreground'>

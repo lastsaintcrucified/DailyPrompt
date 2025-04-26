@@ -12,7 +12,7 @@ export default function Navbar() {
 	const { user, loading } = useAuth();
 
 	return (
-		<header className='border-b'>
+		<header className='border-b px-4'>
 			<div className='container flex h-16 items-center justify-between'>
 				<div className='flex items-center gap-6'>
 					<Link
